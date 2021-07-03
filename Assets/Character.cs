@@ -31,11 +31,13 @@ public class Character : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        moveX = Input.GetAxisRaw("Horizontal");
-
         if (Input.touchCount > 0)
         {
-            Debug.Log(Input.GetTouch(0).position.x);
+            var touchPosition = Camera.main.ScreenToWorldPoint(Input.GetTouch(Input.touchCount - 1).position);
+            moveX = touchPosition.x > transform.position.x ? 1 : -1;
+        } else
+        {
+            moveX = Input.GetAxisRaw("Horizontal");
         }
 
         transform.position += new Vector3(moveX * Time.deltaTime * speed, 0, 0);
