@@ -776,16 +776,26 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: 2DBuiltInRenderer
+  metroPackageName: 40522Meng-YuanHuang.4054C8AADB1D
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: 2D_BuiltInRenderer
-  wsaImages: {}
-  metroTileShortName: Collector
+  metroCertificateSubject: 5190CF16-8C6F-4DE3-AD94-D8E3FBB2302B
+  metroCertificateIssuer: 5190CF16-8C6F-4DE3-AD94-D8E3FBB2302B
+  metroCertificateNotAfter: 00ebacc79f8fd801
+  metroApplicationDescription: "\u6536\u96C6\u91D1\u5E63\u904A\u6232"
+  wsaImages:
+    65636: Assets/WinAssets/StoreLogo.scale-100.png
+    65661: 
+    131272: Assets/WinAssets/SplashScreen.scale-200.png
+    2031640: Assets/WinAssets/Square44x44Logo.targetsize-24.png
+    2031716: Assets/WinAssets/Square44x44Logo.scale-100.png
+    2031816: Assets/WinAssets/Square44x44Logo.scale-200.png
+    2032016: 
+    2097352: Assets/WinAssets/SmallTile.scale-200.png
+    2162888: Assets/WinAssets/Square150x150Logo.scale-200.png
+    2293960: Assets/WinAssets/Wide310x150Logo.scale-200.png
+  metroTileShortName: "\u6536\u96C6\u91D1\u5E63"
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -797,8 +807,14 @@ PlayerSettings:
   metroTileBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21568628, a: 0}
   metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628, a: 1}
   metroSplashScreenUseBackgroundColor: 0
-  platformCapabilities: {}
-  metroTargetDeviceFamilies: {}
+  platformCapabilities:
+    WindowsStoreApps:
+      InternetClient: True
+  metroTargetDeviceFamilies:
+    Desktop: True
+    Holographic: True
+    Mobile: True
+    Xbox: True
   metroFTAName: 
   metroFTAFileTypes: []
   metroProtocolName: 
