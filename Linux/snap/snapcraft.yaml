@@ -1,0 +1,21 @@
+name: game-collector
+version: "1.0.2"
+summary: 收集金幣看你能不能在前10名排行榜留名
+description: |
+ 這款遊戲玩家可以用觸控操縱一隻不明生物，左、右移動，收集天空隨機掉下來的金幣，會有分數累積，但如果被流星錘砸到，就遊戲結束。分數愈高、難度愈高。
+ 遊戲結束後，分數若能排進前10名排行榜，會讓玩家輸入姓名留名。
+ 
+grade: stable
+confinement: strict
+base: core18
+
+parts:
+  game-collector:
+    plugin: dump
+    source: snap/local
+
+apps:
+   game-collector:
+     command: collector.x86_64
+     extensions: [gnome-3-28]
+     plugs: [network]

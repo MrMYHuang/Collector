@@ -1,0 +1,15 @@
+[Desktop Entry]
+
+Name=收集金幣
+
+Comment=收集金幣
+
+Exec=game-collector
+
+Icon=${SNAP}/meta/gui/Icon512.png
+
+Type=Application
+
+Terminal=false
+
+Categories=Game;
