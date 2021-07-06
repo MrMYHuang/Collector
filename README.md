@@ -16,7 +16,7 @@
   2. App 商店。
 
 ### <a id='web-app'>從瀏覽器開啟</a>
-請用Chrome (Windows, macOS, Linux, Android作業系統使用者)、Safari (iOS (iPhone, iPad)使用者)瀏覽器開啟以下網址：
+請用Chrome (Windows, macOS, Linux作業系統使用者)開啟以下網址：
 
 https://play.unity.com/mg/other/webgl-builds-68495
 
