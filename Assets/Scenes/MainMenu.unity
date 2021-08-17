@@ -315,8 +315,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -497, y: 219}
-  m_SizeDelta: {x: 160, y: 50}
+  m_AnchoredPosition: {x: -371, y: 111}
+  m_SizeDelta: {x: 546.86, y: 162.37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &410313686
 MonoBehaviour:
@@ -351,9 +351,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Version 1.0.1
-
-    Designed by
+  m_Text: 'Designed by
 
     Meng-Yuan Huang'
 --- !u!222 &410313687
