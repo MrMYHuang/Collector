@@ -2,18 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using Newtonsoft.Json;
 using System.Linq;
 
+[System.Serializable]
 public class HighScore
 {
-    [JsonProperty("player")]
-    public string player { get; set; }
-    [JsonProperty("score")]
-    public int score { get; set; }
+    public string player;
+    public int score;
 }
 
-    public class ShowHighScores : MonoBehaviour
+[System.Serializable]
+public class HighScores
+{
+    public HighScore[] data;
+}
+
+public class ShowHighScores : MonoBehaviour
 {
     public GameObject rankTextUi;
     public GameObject playerTextUi;
@@ -24,7 +28,8 @@ public class HighScore
     async void showHighScores()
     {
         var jsonString = await BackendApi.getCallApi(BackendApi.apiUrl);
-        GlobalData.highScores = JsonConvert.DeserializeObject<List<HighScore>>(jsonString);
+        var highScores = JsonUtility.FromJson<HighScores>("{\"data\":" + jsonString + "}");
+        GlobalData.highScores = highScores.data.ToList();
 
         if (GlobalData.highScores.Count > 0)
         {

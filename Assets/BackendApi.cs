@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Threading;
-using Newtonsoft.Json;
 using System;
 using System.Text;
 using UnityEngine;
@@ -10,7 +9,7 @@ using UnityEngine.Networking;
 
 public class BackendApi
 {
-    public static string apiUrl = "https://YourBackendApi";
+    public static string apiUrl = "https://mrd4l9nsqc.execute-api.ap-northeast-1.amazonaws.com/GameCollectorServ";
 
     public static Task<string> getCallApi(string url)
     {
@@ -33,7 +32,7 @@ public class BackendApi
     public static Task<string> putCallApi(string url, object obj)
     {
         string objOut = null;
-        var content = JsonConvert.SerializeObject(obj);
+        var content = JsonUtility.ToJson(obj);
         var req = UnityWebRequest.Put(url, content);
         req.SetRequestHeader("Content-Type", "application/json");
 
