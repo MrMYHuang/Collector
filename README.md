@@ -49,3 +49,8 @@ https://play.unity.com/mg/other/webgl-builds-68495
 
 ## 隱私政策
 此遊戲無收集其它使用者個人資料或裝置資料，除了提供遊戲分數排行榜給玩家作參考，沒有作其它用途。排行榜資料僅收集最高分10名玩家所送出的記錄，一旦記錄被超越且移出排行榜則消失。
+
+## 第三方軟體版權聲明
+1. 遊戲圖檔使用 Free Platform Game Assets (by Bayat Games): https://assetstore.unity.com/packages/2d/environments/free-platform-game-assets-85838
+2. 背景音樂使用 Nature Sound FX (by lumino): https://assetstore.unity.com/packages/audio/sound-fx/nature-sound-fx-180413
+3. 音效使用 FREE Casual Game SFX Pack (by Dustyroom): https://assetstore.unity.com/packages/audio/sound-fx/free-casual-game-sfx-pack-54116
