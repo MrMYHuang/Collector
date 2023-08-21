@@ -28,6 +28,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.2, y: 1.1125, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 191850925117718257}
   m_RootOrder: 0
@@ -108,6 +109,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -914.92096}
   m_LocalScale: {x: 0.10540088, y: 0.072064176, z: 0.009259259}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 191850925487716829}
   m_RootOrder: 0
@@ -173,6 +175,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 3
   m_TargetDisplay: 0
@@ -206,6 +209,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -914.92096}
   m_LocalScale: {x: 0.008214639, y: 0.008009274, z: 0.008214639}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 191850923513570547}
   m_Father: {fileID: 191850925487716829}
@@ -352,6 +356,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -914.92096}
   m_LocalScale: {x: 0.009259259, y: 0.009259259, z: 0.009259259}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 191850925444918291}
   - {fileID: 191850925523303870}
@@ -452,10 +457,10 @@ MonoBehaviour:
   m_HideMobileInput: 0
   m_CharacterValidation: 0
   m_CharacterLimit: 0
-  m_OnEndEdit:
+  m_OnSubmit:
     m_PersistentCalls:
       m_Calls: []
-  m_OnSubmit:
+  m_OnDidEndEdit:
     m_PersistentCalls:
       m_Calls: []
   m_OnValueChanged:
@@ -497,6 +502,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 191850925244718451}
   m_RootOrder: 0
@@ -574,6 +580,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -227.39957, y: 246.35497, z: 98811.46}
   m_LocalScale: {x: 108, y: 108, z: 108}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 191850924724798423}
   - {fileID: 191850925244718451}
@@ -610,6 +617,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -914.92096}
   m_LocalScale: {x: 0.009259259, y: 0.009259259, z: 0.009259259}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 191850925487716829}
   m_RootOrder: 2
@@ -662,7 +670,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'New high scores!
 
-    Please fill your name and submit it.'
+    Press button to submit it.'
 --- !u!1 &191850925523303871
 GameObject:
   m_ObjectHideFlags: 0
@@ -691,6 +699,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 191850925244718451}
   m_RootOrder: 1
@@ -771,6 +780,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 191850925487716829}
   m_Father: {fileID: 0}
@@ -799,6 +809,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 4
   m_TargetDisplay: 0

@@ -76,3 +76,5 @@ iOS
 iOS_Sim
 macOS
 Linux
+Android
+Packages/Newtonsoft.Json*

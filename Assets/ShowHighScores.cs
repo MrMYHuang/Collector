@@ -20,7 +20,6 @@ public class HighScores
 public class ShowHighScores : MonoBehaviour
 {
     public GameObject rankTextUi;
-    public GameObject playerTextUi;
     public GameObject scoreTextUi;
     public GameObject startButton;
     public GameObject startButtonText;
@@ -34,7 +33,6 @@ public class ShowHighScores : MonoBehaviour
         if (GlobalData.highScores.Count > 0)
         {
             rankTextUi.GetComponent<Text>().text = GlobalData.highScores.Select((hs, i) => $"{i + 1}\n").Aggregate((r0, r1) => r0 + r1);
-            playerTextUi.GetComponent<Text>().text = GlobalData.highScores.Select(hs => $"{hs.player}\n").Aggregate((r0, r1) => r0 + r1);
             scoreTextUi.GetComponent<Text>().text = GlobalData.highScores.Select(hs => $"{hs.score}\n").Aggregate((r0, r1) => r0 + r1);
         }
 

@@ -13,14 +13,8 @@ public class Submit : MonoBehaviour
         gameObject.GetComponent<Button>().interactable = false;
         gameObject.GetComponent<Image>().color = Color.red;
 
-        var playerName = nameInputField.GetComponent<InputField>().text;
-        if (playerName == "")
-        {
-            playerName = "Anonymous";
-        }
-
         var highScore = new HighScore();
-        highScore.player = playerName;
+        highScore.player = "";
         highScore.score = GlobalData.score;
 
         await BackendApi.putCallApi(BackendApi.apiUrl, highScore);
