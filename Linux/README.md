@@ -1,1 +1,1 @@
-Put linux_Data, linux.x86_64, and UnityPlayer.so to snap/local, then run ./buildSnap.sh
+On x86_64 Ubuntu Linux, put linux_Data, linux.x86_64, and UnityPlayer.so to snap/local, then run ./buildSnap.sh
