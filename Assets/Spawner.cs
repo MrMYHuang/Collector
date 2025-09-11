@@ -24,7 +24,7 @@ public class Spawner : MonoBehaviour
             var obj = Instantiate(goRefs[Random.Range(0, goRefs.Length)]);
 
             var body = obj.GetComponent<Rigidbody2D>();
-            body.velocity = new Vector2(0, Random.Range(0, GlobalData.score / 4));
+            body.linearVelocity = new Vector2(0, Random.Range(0, GlobalData.score / 4));
 
             var trans = obj.transform;
             trans.position = new Vector3(Random.Range(-8.5f, 8.5f), 5.8f, 0);

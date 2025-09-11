@@ -9,7 +9,7 @@ using UnityEngine.Networking;
 
 public class BackendApi
 {
-    public static string apiUrl = "https://mrd4l9nsqc.execute-api.ap-northeast-1.amazonaws.com/GameCollectorServ";
+    public static string apiUrl = "https://collector.mrmyh.eu.org/api";
 
     public static Task<string> getCallApi(string url)
     {
