@@ -69,8 +69,11 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+/[Aa]ssets/obj
 
 WebGL Builds
+connectwebgl
+webgl
 Uwp
 iOS
 iOS_Sim
@@ -78,3 +81,4 @@ macOS
 Linux
 Android
 Packages/Newtonsoft.Json*
+.utmp
