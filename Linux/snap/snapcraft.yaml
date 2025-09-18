@@ -1,5 +1,5 @@
 name: game-collector
-version: "1.0.8"
+version: 1.0.10
 summary: 收集金幣，看你最多拿幾個金幣!
 description: |
  這款遊戲玩家可以用觸控操縱一隻不明生物，左、右移動，收集天空隨機掉下來的金幣，會有分數累積，但如果被流星錘砸到，就遊戲結束。分數愈高、難度愈高。
@@ -7,7 +7,7 @@ description: |
  
 grade: stable
 confinement: strict
-base: core22
+base: core20
 
 parts:
   game-collector:
@@ -17,5 +17,5 @@ parts:
 apps:
    game-collector:
      command: linux.x86_64
-     extensions: [gnome]
+     extensions: [gnome-3-38]
      plugs: [network]
