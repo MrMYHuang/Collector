@@ -43,8 +43,8 @@ https://play.unity.com/mg/other/webgl-builds-68495
 </a>
 
 #### Linux - 使用Snap Store
-<a href='https://snapcraft.io/game-collector' target='_blank'>
-<img width="auto" height='60px' src='https://github.com/MrMYHuang/Collector/raw/main/docs/images/[TW]-snap-store-black@2x.png' />
+<a href="https://snapcraft.io/game-collector">
+    <img width="auto" height='60px' alt="Get it from the Snap Store" src=https://snapcraft.io/en/dark/install.svg />
 </a>
 
 ## 隱私政策
